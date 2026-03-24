@@ -32,3 +32,7 @@ The scanner prints the results in the terminal and also creates a report.json fi
 - requests
 - ssl
 - socket
+
+## Conclusion
+
+This project gave me hands-on practice with Python automation and basic security scanning concepts. It is a beginner-friendly project, but it demonstrates practical skills related to scripting, security awareness, and project sharing through GitHub.

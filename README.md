@@ -28,7 +28,7 @@ python scanner.py https://api.github.com --json-out report.json
 The scanner prints the results in the terminal and also creates a report.json file.
 
 ## Tech Stack
-Python
-requests
-ssl
-socket
+- Python
+- requests
+- ssl
+- socket

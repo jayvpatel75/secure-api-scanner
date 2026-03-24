@@ -1,52 +1,35 @@
 # Secure API Scanner
 
-A simple Python tool that checks:
-- HTTPS usage
-- TLS support
-- common open ports
-- security headers
-- basic API response issues
+This is a simple Python project that scans a given URL for basic API and web security checks.
+
+## Features
+- Checks HTTPS usage
+- Verifies TLS connection support
+- Scans common open ports
+- Checks important security headers
+- Detects basic API response issues
+- Saves output in JSON format
 
 ## Files
-- `scanner.py`
-- `requirements.txt`
-- `README.md`
+- `scanner.py` — main Python script
+- `requirements.txt` — required package
+- `README.md` — project documentation
 
-## Run
-
-### 1. Install Python packages
+## Installation
 ```bash
 pip install -r requirements.txt
-```
 
-### 2. Run the scanner
+## Run
 ```bash
 python scanner.py https://api.github.com --json-out report.json
-```
 
-## Take screenshots
-1. Screenshot the terminal after running the scanner
-2. Screenshot the generated `report.json` file
-3. Screenshot your GitHub repo after upload
+Output
 
-## Create GitHub repo
+The scanner prints the results in the terminal and also creates a report.json file.
 
-### 1. Initialize git
-```bash
-git init
-git add .
-git commit -m "Initial commit"
-git branch -M main
-```
+## Tech Stack
+Python
+requests
+ssl
+socket
 
-### 2. Create a new empty GitHub repo
-Example name: `secure-api-scanner`
-
-### 3. Connect and push
-```bash
-git remote add origin https://github.com/YOUR_USERNAME/secure-api-scanner.git
-git push -u origin main
-```
-
-## Share repo
-Copy the browser URL of your GitHub repository and submit that link.

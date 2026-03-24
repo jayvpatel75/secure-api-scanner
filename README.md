@@ -19,8 +19,6 @@ This is a simple Python project that scans a given URL for basic API and web sec
 ```bash
 pip install -r requirements.txt
 
-Run
-```bash
 python scanner.py https://api.github.com --json-out report.json
 
 Output
@@ -32,4 +30,3 @@ Python
 requests
 ssl
 socket
-

@@ -19,7 +19,7 @@ This is a simple Python project that scans a given URL for basic API and web sec
 ```bash
 pip install -r requirements.txt
 
-## Run
+Run
 ```bash
 python scanner.py https://api.github.com --json-out report.json
 
@@ -27,7 +27,7 @@ Output
 
 The scanner prints the results in the terminal and also creates a report.json file.
 
-## Tech Stack
+Tech Stack
 Python
 requests
 ssl

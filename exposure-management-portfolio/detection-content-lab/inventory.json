@@ -1,0 +1,39 @@
+[
+  {
+    "asset_id": "web-public",
+    "product": "httpd",
+    "version": "2.4.49",
+    "source": "host_inventory",
+    "platform": "Linux"
+  },
+  {
+    "asset_id": "web-banner",
+    "product": "Apache HTTP Server",
+    "version": "2.4.50",
+    "source": "network_banner",
+    "platform": "unknown"
+  },
+  {
+    "asset_id": "web-fixed",
+    "product": "httpd",
+    "version": "2.4.51",
+    "source": "host_inventory",
+    "platform": "Windows"
+  },
+  {
+    "asset_id": "web-vendor",
+    "product": "apache2",
+    "version": "2.4.49-ubuntu1",
+    "source": "host_inventory",
+    "platform": "Linux"
+  },
+  {
+    "asset_id": "web-backport",
+    "product": "httpd",
+    "version": "2.4.49",
+    "source": "host_inventory",
+    "platform": "Linux",
+    "vendor_patch_status": "fixed",
+    "patch_reference": "synthetic-vendor-advisory-001"
+  }
+]

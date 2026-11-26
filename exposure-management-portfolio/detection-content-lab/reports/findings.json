@@ -1,0 +1,196 @@
+[
+  {
+    "finding_id": "web-public:CVE-2021-41773",
+    "asset_id": "web-public",
+    "cve": "CVE-2021-41773",
+    "state": "affected_version",
+    "reason": "Host inventory matches affected version; validate configuration and patch provenance",
+    "evidence": {
+      "asset_id": "web-public",
+      "platform": "Linux",
+      "product": "httpd",
+      "source": "host_inventory",
+      "version": "2.4.49"
+    },
+    "evidence_sha256": "54ff2c710dd76b368e42f9079b75362809eccd43b059d6390a5327999f9aba62",
+    "rule_revision": "1.0.0",
+    "advisory": "https://httpd.apache.org/security/vulnerabilities_24.html#CVE-2021-41773",
+    "remediation": "Upgrade to a current supported vendor release addressing both CVE-2021-41773 and CVE-2021-42013; verify vendor patch provenance. 2.4.50 fixed this CVE but was affected by an incomplete-fix bypass.",
+    "configuration_note": "Path traversal depends on access controls outside Alias directories; CGI configuration affects RCE. Version matching alone does not prove exploitability."
+  },
+  {
+    "finding_id": "web-public:CVE-2021-42013",
+    "asset_id": "web-public",
+    "cve": "CVE-2021-42013",
+    "state": "affected_version",
+    "reason": "Host inventory matches affected version; validate configuration and patch provenance",
+    "evidence": {
+      "asset_id": "web-public",
+      "platform": "Linux",
+      "product": "httpd",
+      "source": "host_inventory",
+      "version": "2.4.49"
+    },
+    "evidence_sha256": "54ff2c710dd76b368e42f9079b75362809eccd43b059d6390a5327999f9aba62",
+    "rule_revision": "1.0.0",
+    "advisory": "https://httpd.apache.org/security/vulnerabilities_24.html#CVE-2021-42013",
+    "remediation": "Upgrade to a current supported vendor release. Historical fix boundary is 2.4.51; this is not a recommendation to deploy that old release. Verify vendor patch provenance and retest inventory.",
+    "configuration_note": "Incomplete path-normalization fix; directory access policy and CGI configuration affect impact. No exploit requests are sent by this lab."
+  },
+  {
+    "finding_id": "web-banner:CVE-2021-41773",
+    "asset_id": "web-banner",
+    "cve": "CVE-2021-41773",
+    "state": "not_affected",
+    "reason": "Version outside this CVE rule; other CVEs may still apply",
+    "evidence": {
+      "asset_id": "web-banner",
+      "platform": "unknown",
+      "product": "Apache HTTP Server",
+      "source": "network_banner",
+      "version": "2.4.50"
+    },
+    "evidence_sha256": "3ef4c8588d93f90ba5a43a78c2e1de3059667cad45d1a4f1b7aaa3e30bc9aa80",
+    "rule_revision": "1.0.0",
+    "advisory": "https://httpd.apache.org/security/vulnerabilities_24.html#CVE-2021-41773",
+    "remediation": "Upgrade to a current supported vendor release addressing both CVE-2021-41773 and CVE-2021-42013; verify vendor patch provenance. 2.4.50 fixed this CVE but was affected by an incomplete-fix bypass.",
+    "configuration_note": "Path traversal depends on access controls outside Alias directories; CGI configuration affects RCE. Version matching alone does not prove exploitability."
+  },
+  {
+    "finding_id": "web-banner:CVE-2021-42013",
+    "asset_id": "web-banner",
+    "cve": "CVE-2021-42013",
+    "state": "potential",
+    "reason": "Banner matches affected version; authenticate host inventory to validate",
+    "evidence": {
+      "asset_id": "web-banner",
+      "platform": "unknown",
+      "product": "Apache HTTP Server",
+      "source": "network_banner",
+      "version": "2.4.50"
+    },
+    "evidence_sha256": "3ef4c8588d93f90ba5a43a78c2e1de3059667cad45d1a4f1b7aaa3e30bc9aa80",
+    "rule_revision": "1.0.0",
+    "advisory": "https://httpd.apache.org/security/vulnerabilities_24.html#CVE-2021-42013",
+    "remediation": "Upgrade to a current supported vendor release. Historical fix boundary is 2.4.51; this is not a recommendation to deploy that old release. Verify vendor patch provenance and retest inventory.",
+    "configuration_note": "Incomplete path-normalization fix; directory access policy and CGI configuration affect impact. No exploit requests are sent by this lab."
+  },
+  {
+    "finding_id": "web-fixed:CVE-2021-41773",
+    "asset_id": "web-fixed",
+    "cve": "CVE-2021-41773",
+    "state": "not_affected",
+    "reason": "Version outside this CVE rule; other CVEs may still apply",
+    "evidence": {
+      "asset_id": "web-fixed",
+      "platform": "Windows",
+      "product": "httpd",
+      "source": "host_inventory",
+      "version": "2.4.51"
+    },
+    "evidence_sha256": "1f6166e2b8512ba783144d64844280938adafbafe75febaaea0a5b7848028af9",
+    "rule_revision": "1.0.0",
+    "advisory": "https://httpd.apache.org/security/vulnerabilities_24.html#CVE-2021-41773",
+    "remediation": "Upgrade to a current supported vendor release addressing both CVE-2021-41773 and CVE-2021-42013; verify vendor patch provenance. 2.4.50 fixed this CVE but was affected by an incomplete-fix bypass.",
+    "configuration_note": "Path traversal depends on access controls outside Alias directories; CGI configuration affects RCE. Version matching alone does not prove exploitability."
+  },
+  {
+    "finding_id": "web-fixed:CVE-2021-42013",
+    "asset_id": "web-fixed",
+    "cve": "CVE-2021-42013",
+    "state": "not_affected",
+    "reason": "Version outside this CVE rule; other CVEs may still apply",
+    "evidence": {
+      "asset_id": "web-fixed",
+      "platform": "Windows",
+      "product": "httpd",
+      "source": "host_inventory",
+      "version": "2.4.51"
+    },
+    "evidence_sha256": "1f6166e2b8512ba783144d64844280938adafbafe75febaaea0a5b7848028af9",
+    "rule_revision": "1.0.0",
+    "advisory": "https://httpd.apache.org/security/vulnerabilities_24.html#CVE-2021-42013",
+    "remediation": "Upgrade to a current supported vendor release. Historical fix boundary is 2.4.51; this is not a recommendation to deploy that old release. Verify vendor patch provenance and retest inventory.",
+    "configuration_note": "Incomplete path-normalization fix; directory access policy and CGI configuration affect impact. No exploit requests are sent by this lab."
+  },
+  {
+    "finding_id": "web-vendor:CVE-2021-41773",
+    "asset_id": "web-vendor",
+    "cve": "CVE-2021-41773",
+    "state": "unknown",
+    "reason": "Unparseable, missing, or vendor-suffixed version; verify vendor advisory",
+    "evidence": {
+      "asset_id": "web-vendor",
+      "platform": "Linux",
+      "product": "apache2",
+      "source": "host_inventory",
+      "version": "2.4.49-ubuntu1"
+    },
+    "evidence_sha256": "0cc7debfe28c4056fddf7782f96a25125c63916fc5f653fc0e82b85e23787bd1",
+    "rule_revision": "1.0.0",
+    "advisory": "https://httpd.apache.org/security/vulnerabilities_24.html#CVE-2021-41773",
+    "remediation": "Upgrade to a current supported vendor release addressing both CVE-2021-41773 and CVE-2021-42013; verify vendor patch provenance. 2.4.50 fixed this CVE but was affected by an incomplete-fix bypass.",
+    "configuration_note": "Path traversal depends on access controls outside Alias directories; CGI configuration affects RCE. Version matching alone does not prove exploitability."
+  },
+  {
+    "finding_id": "web-vendor:CVE-2021-42013",
+    "asset_id": "web-vendor",
+    "cve": "CVE-2021-42013",
+    "state": "unknown",
+    "reason": "Unparseable, missing, or vendor-suffixed version; verify vendor advisory",
+    "evidence": {
+      "asset_id": "web-vendor",
+      "platform": "Linux",
+      "product": "apache2",
+      "source": "host_inventory",
+      "version": "2.4.49-ubuntu1"
+    },
+    "evidence_sha256": "0cc7debfe28c4056fddf7782f96a25125c63916fc5f653fc0e82b85e23787bd1",
+    "rule_revision": "1.0.0",
+    "advisory": "https://httpd.apache.org/security/vulnerabilities_24.html#CVE-2021-42013",
+    "remediation": "Upgrade to a current supported vendor release. Historical fix boundary is 2.4.51; this is not a recommendation to deploy that old release. Verify vendor patch provenance and retest inventory.",
+    "configuration_note": "Incomplete path-normalization fix; directory access policy and CGI configuration affect impact. No exploit requests are sent by this lab."
+  },
+  {
+    "finding_id": "web-backport:CVE-2021-41773",
+    "asset_id": "web-backport",
+    "cve": "CVE-2021-41773",
+    "state": "not_affected",
+    "reason": "Host inventory records vendor fix; retain patch reference for review",
+    "evidence": {
+      "asset_id": "web-backport",
+      "patch_reference": "synthetic-vendor-advisory-001",
+      "platform": "Linux",
+      "product": "httpd",
+      "source": "host_inventory",
+      "vendor_patch_status": "fixed",
+      "version": "2.4.49"
+    },
+    "evidence_sha256": "b9c999b485792510d008922d710b3da133f8372bec5de64b174f2abcbb1472bf",
+    "rule_revision": "1.0.0",
+    "advisory": "https://httpd.apache.org/security/vulnerabilities_24.html#CVE-2021-41773",
+    "remediation": "Upgrade to a current supported vendor release addressing both CVE-2021-41773 and CVE-2021-42013; verify vendor patch provenance. 2.4.50 fixed this CVE but was affected by an incomplete-fix bypass.",
+    "configuration_note": "Path traversal depends on access controls outside Alias directories; CGI configuration affects RCE. Version matching alone does not prove exploitability."
+  },
+  {
+    "finding_id": "web-backport:CVE-2021-42013",
+    "asset_id": "web-backport",
+    "cve": "CVE-2021-42013",
+    "state": "not_affected",
+    "reason": "Host inventory records vendor fix; retain patch reference for review",
+    "evidence": {
+      "asset_id": "web-backport",
+      "patch_reference": "synthetic-vendor-advisory-001",
+      "platform": "Linux",
+      "product": "httpd",
+      "source": "host_inventory",
+      "vendor_patch_status": "fixed",
+      "version": "2.4.49"
+    },
+    "evidence_sha256": "b9c999b485792510d008922d710b3da133f8372bec5de64b174f2abcbb1472bf",
+    "rule_revision": "1.0.0",
+    "advisory": "https://httpd.apache.org/security/vulnerabilities_24.html#CVE-2021-42013",
+    "remediation": "Upgrade to a current supported vendor release. Historical fix boundary is 2.4.51; this is not a recommendation to deploy that old release. Verify vendor patch provenance and retest inventory.",
+    "configuration_note": "Incomplete path-normalization fix; directory access policy and CGI configuration affect impact. No exploit requests are sent by this lab."
+  }
+]

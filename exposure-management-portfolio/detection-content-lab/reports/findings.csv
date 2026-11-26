@@ -1,0 +1,11 @@
+finding_id,state,reason,advisory
+web-public:CVE-2021-41773,affected_version,Host inventory matches affected version; validate configuration and patch provenance,https://httpd.apache.org/security/vulnerabilities_24.html#CVE-2021-41773
+web-public:CVE-2021-42013,affected_version,Host inventory matches affected version; validate configuration and patch provenance,https://httpd.apache.org/security/vulnerabilities_24.html#CVE-2021-42013
+web-banner:CVE-2021-41773,not_affected,Version outside this CVE rule; other CVEs may still apply,https://httpd.apache.org/security/vulnerabilities_24.html#CVE-2021-41773
+web-banner:CVE-2021-42013,potential,Banner matches affected version; authenticate host inventory to validate,https://httpd.apache.org/security/vulnerabilities_24.html#CVE-2021-42013
+web-fixed:CVE-2021-41773,not_affected,Version outside this CVE rule; other CVEs may still apply,https://httpd.apache.org/security/vulnerabilities_24.html#CVE-2021-41773
+web-fixed:CVE-2021-42013,not_affected,Version outside this CVE rule; other CVEs may still apply,https://httpd.apache.org/security/vulnerabilities_24.html#CVE-2021-42013
+web-vendor:CVE-2021-41773,unknown,"Unparseable, missing, or vendor-suffixed version; verify vendor advisory",https://httpd.apache.org/security/vulnerabilities_24.html#CVE-2021-41773
+web-vendor:CVE-2021-42013,unknown,"Unparseable, missing, or vendor-suffixed version; verify vendor advisory",https://httpd.apache.org/security/vulnerabilities_24.html#CVE-2021-42013
+web-backport:CVE-2021-41773,not_affected,Host inventory records vendor fix; retain patch reference for review,https://httpd.apache.org/security/vulnerabilities_24.html#CVE-2021-41773
+web-backport:CVE-2021-42013,not_affected,Host inventory records vendor fix; retain patch reference for review,https://httpd.apache.org/security/vulnerabilities_24.html#CVE-2021-42013

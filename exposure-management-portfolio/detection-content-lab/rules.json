@@ -1,0 +1,18 @@
+[
+  {
+    "cve": "CVE-2021-41773",
+    "revision": "1.0.0",
+    "affected_versions": ["2.4.49"],
+    "advisory": "https://httpd.apache.org/security/vulnerabilities_24.html#CVE-2021-41773",
+    "remediation": "Upgrade to a current supported vendor release addressing both CVE-2021-41773 and CVE-2021-42013; verify vendor patch provenance. 2.4.50 fixed this CVE but was affected by an incomplete-fix bypass.",
+    "configuration_note": "Path traversal depends on access controls outside Alias directories; CGI configuration affects RCE. Version matching alone does not prove exploitability."
+  },
+  {
+    "cve": "CVE-2021-42013",
+    "revision": "1.0.0",
+    "affected_versions": ["2.4.49", "2.4.50"],
+    "advisory": "https://httpd.apache.org/security/vulnerabilities_24.html#CVE-2021-42013",
+    "remediation": "Upgrade to a current supported vendor release. Historical fix boundary is 2.4.51; this is not a recommendation to deploy that old release. Verify vendor patch provenance and retest inventory.",
+    "configuration_note": "Incomplete path-normalization fix; directory access policy and CGI configuration affect impact. No exploit requests are sent by this lab."
+  }
+]

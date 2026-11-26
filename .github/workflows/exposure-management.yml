@@ -1,0 +1,23 @@
+name: Exposure management portfolio
+on:
+  push:
+    paths: ['exposure-management-portfolio/**', '.github/workflows/exposure-management.yml']
+  pull_request:
+    paths: ['exposure-management-portfolio/**', '.github/workflows/exposure-management.yml']
+permissions:
+  contents: read
+jobs:
+  regression:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ['3.11', '3.14']
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '${{ matrix.python-version }}'
+      - run: python -m unittest discover -s tests -v
+        working-directory: exposure-management-portfolio
+      - run: python detection-content-lab/detect.py
+        working-directory: exposure-management-portfolio

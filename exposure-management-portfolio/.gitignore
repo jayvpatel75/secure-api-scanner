@@ -1,0 +1,4 @@
+__pycache__/
+*.pyc
+approval.json
+tickets.json

@@ -1,0 +1,320 @@
+[
+  {
+    "name": "CVE-2021-41773-host-2.4.9",
+    "cve": "CVE-2021-41773",
+    "asset": {
+      "asset_id": "test-host",
+      "product": "httpd",
+      "source": "host_inventory",
+      "version": "2.4.9"
+    },
+    "expected": "not_affected"
+  },
+  {
+    "name": "CVE-2021-41773-host-2.4.48",
+    "cve": "CVE-2021-41773",
+    "asset": {
+      "asset_id": "test-host",
+      "product": "httpd",
+      "source": "host_inventory",
+      "version": "2.4.48"
+    },
+    "expected": "not_affected"
+  },
+  {
+    "name": "CVE-2021-41773-host-2.4.49",
+    "cve": "CVE-2021-41773",
+    "asset": {
+      "asset_id": "test-host",
+      "product": "httpd",
+      "source": "host_inventory",
+      "version": "2.4.49"
+    },
+    "expected": "affected_version"
+  },
+  {
+    "name": "CVE-2021-41773-host-2.4.50",
+    "cve": "CVE-2021-41773",
+    "asset": {
+      "asset_id": "test-host",
+      "product": "httpd",
+      "source": "host_inventory",
+      "version": "2.4.50"
+    },
+    "expected": "not_affected"
+  },
+  {
+    "name": "CVE-2021-41773-host-2.4.51",
+    "cve": "CVE-2021-41773",
+    "asset": {
+      "asset_id": "test-host",
+      "product": "httpd",
+      "source": "host_inventory",
+      "version": "2.4.51"
+    },
+    "expected": "not_affected"
+  },
+  {
+    "name": "CVE-2021-41773-host-2.4.100",
+    "cve": "CVE-2021-41773",
+    "asset": {
+      "asset_id": "test-host",
+      "product": "httpd",
+      "source": "host_inventory",
+      "version": "2.4.100"
+    },
+    "expected": "not_affected"
+  },
+  {
+    "name": "CVE-2021-41773-banner",
+    "cve": "CVE-2021-41773",
+    "asset": {
+      "asset_id": "test-host",
+      "product": "httpd",
+      "source": "network_banner",
+      "version": "2.4.49"
+    },
+    "expected": "potential"
+  },
+  {
+    "name": "CVE-2021-41773-missing",
+    "cve": "CVE-2021-41773",
+    "asset": {
+      "asset_id": "test-host",
+      "product": "httpd",
+      "source": "host_inventory",
+      "version": ""
+    },
+    "expected": "unknown"
+  },
+  {
+    "name": "CVE-2021-41773-vendor-suffix",
+    "cve": "CVE-2021-41773",
+    "asset": {
+      "asset_id": "test-host",
+      "product": "httpd",
+      "source": "host_inventory",
+      "version": "2.4.49-ubuntu1"
+    },
+    "expected": "unknown"
+  },
+  {
+    "name": "CVE-2021-41773-prerelease",
+    "cve": "CVE-2021-41773",
+    "asset": {
+      "asset_id": "test-host",
+      "product": "httpd",
+      "source": "host_inventory",
+      "version": "2.4.49-rc1"
+    },
+    "expected": "unknown"
+  },
+  {
+    "name": "CVE-2021-41773-vendor-fixed",
+    "cve": "CVE-2021-41773",
+    "asset": {
+      "asset_id": "test-host",
+      "product": "httpd",
+      "source": "host_inventory",
+      "version": "2.4.49",
+      "vendor_patch_status": "fixed",
+      "patch_reference": "synthetic-vendor-advisory-001"
+    },
+    "expected": "not_affected"
+  },
+  {
+    "name": "CVE-2021-41773-unproven-fix",
+    "cve": "CVE-2021-41773",
+    "asset": {
+      "asset_id": "test-host",
+      "product": "httpd",
+      "source": "host_inventory",
+      "version": "2.4.49",
+      "vendor_patch_status": "fixed"
+    },
+    "expected": "unknown"
+  },
+  {
+    "name": "CVE-2021-41773-other-product",
+    "cve": "CVE-2021-41773",
+    "asset": {
+      "asset_id": "test-host",
+      "product": "nginx",
+      "source": "host_inventory",
+      "version": "2.4.49"
+    },
+    "expected": "not_applicable"
+  },
+  {
+    "name": "CVE-2021-41773-spoofed-patch-banner",
+    "cve": "CVE-2021-41773",
+    "asset": {
+      "asset_id": "test-host",
+      "product": "httpd",
+      "source": "network_banner",
+      "version": "2.4.49",
+      "vendor_patch_status": "fixed",
+      "patch_reference": "untrusted-banner"
+    },
+    "expected": "unknown"
+  },
+  {
+    "name": "CVE-2021-42013-host-2.4.9",
+    "cve": "CVE-2021-42013",
+    "asset": {
+      "asset_id": "test-host",
+      "product": "httpd",
+      "source": "host_inventory",
+      "version": "2.4.9"
+    },
+    "expected": "not_affected"
+  },
+  {
+    "name": "CVE-2021-42013-host-2.4.48",
+    "cve": "CVE-2021-42013",
+    "asset": {
+      "asset_id": "test-host",
+      "product": "httpd",
+      "source": "host_inventory",
+      "version": "2.4.48"
+    },
+    "expected": "not_affected"
+  },
+  {
+    "name": "CVE-2021-42013-host-2.4.49",
+    "cve": "CVE-2021-42013",
+    "asset": {
+      "asset_id": "test-host",
+      "product": "httpd",
+      "source": "host_inventory",
+      "version": "2.4.49"
+    },
+    "expected": "affected_version"
+  },
+  {
+    "name": "CVE-2021-42013-host-2.4.50",
+    "cve": "CVE-2021-42013",
+    "asset": {
+      "asset_id": "test-host",
+      "product": "httpd",
+      "source": "host_inventory",
+      "version": "2.4.50"
+    },
+    "expected": "affected_version"
+  },
+  {
+    "name": "CVE-2021-42013-host-2.4.51",
+    "cve": "CVE-2021-42013",
+    "asset": {
+      "asset_id": "test-host",
+      "product": "httpd",
+      "source": "host_inventory",
+      "version": "2.4.51"
+    },
+    "expected": "not_affected"
+  },
+  {
+    "name": "CVE-2021-42013-host-2.4.100",
+    "cve": "CVE-2021-42013",
+    "asset": {
+      "asset_id": "test-host",
+      "product": "httpd",
+      "source": "host_inventory",
+      "version": "2.4.100"
+    },
+    "expected": "not_affected"
+  },
+  {
+    "name": "CVE-2021-42013-banner",
+    "cve": "CVE-2021-42013",
+    "asset": {
+      "asset_id": "test-host",
+      "product": "httpd",
+      "source": "network_banner",
+      "version": "2.4.49"
+    },
+    "expected": "potential"
+  },
+  {
+    "name": "CVE-2021-42013-missing",
+    "cve": "CVE-2021-42013",
+    "asset": {
+      "asset_id": "test-host",
+      "product": "httpd",
+      "source": "host_inventory",
+      "version": ""
+    },
+    "expected": "unknown"
+  },
+  {
+    "name": "CVE-2021-42013-vendor-suffix",
+    "cve": "CVE-2021-42013",
+    "asset": {
+      "asset_id": "test-host",
+      "product": "httpd",
+      "source": "host_inventory",
+      "version": "2.4.49-ubuntu1"
+    },
+    "expected": "unknown"
+  },
+  {
+    "name": "CVE-2021-42013-prerelease",
+    "cve": "CVE-2021-42013",
+    "asset": {
+      "asset_id": "test-host",
+      "product": "httpd",
+      "source": "host_inventory",
+      "version": "2.4.49-rc1"
+    },
+    "expected": "unknown"
+  },
+  {
+    "name": "CVE-2021-42013-vendor-fixed",
+    "cve": "CVE-2021-42013",
+    "asset": {
+      "asset_id": "test-host",
+      "product": "httpd",
+      "source": "host_inventory",
+      "version": "2.4.49",
+      "vendor_patch_status": "fixed",
+      "patch_reference": "synthetic-vendor-advisory-001"
+    },
+    "expected": "not_affected"
+  },
+  {
+    "name": "CVE-2021-42013-unproven-fix",
+    "cve": "CVE-2021-42013",
+    "asset": {
+      "asset_id": "test-host",
+      "product": "httpd",
+      "source": "host_inventory",
+      "version": "2.4.49",
+      "vendor_patch_status": "fixed"
+    },
+    "expected": "unknown"
+  },
+  {
+    "name": "CVE-2021-42013-other-product",
+    "cve": "CVE-2021-42013",
+    "asset": {
+      "asset_id": "test-host",
+      "product": "nginx",
+      "source": "host_inventory",
+      "version": "2.4.49"
+    },
+    "expected": "not_applicable"
+  },
+  {
+    "name": "CVE-2021-42013-spoofed-patch-banner",
+    "cve": "CVE-2021-42013",
+    "asset": {
+      "asset_id": "test-host",
+      "product": "httpd",
+      "source": "network_banner",
+      "version": "2.4.49",
+      "vendor_patch_status": "fixed",
+      "patch_reference": "untrusted-banner"
+    },
+    "expected": "unknown"
+  }
+]

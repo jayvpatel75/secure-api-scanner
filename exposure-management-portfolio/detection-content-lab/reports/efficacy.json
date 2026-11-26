@@ -1,0 +1,180 @@
+{
+  "dataset": "synthetic fixtures; not production efficacy",
+  "cases": 28,
+  "passed": 28,
+  "true_positives": 3,
+  "false_positives": 0,
+  "false_negatives": 0,
+  "precision": 1.0,
+  "recall": 1.0,
+  "results": [
+    {
+      "case": "CVE-2021-41773-host-2.4.9",
+      "expected": "not_affected",
+      "actual": "not_affected",
+      "passed": true
+    },
+    {
+      "case": "CVE-2021-41773-host-2.4.48",
+      "expected": "not_affected",
+      "actual": "not_affected",
+      "passed": true
+    },
+    {
+      "case": "CVE-2021-41773-host-2.4.49",
+      "expected": "affected_version",
+      "actual": "affected_version",
+      "passed": true
+    },
+    {
+      "case": "CVE-2021-41773-host-2.4.50",
+      "expected": "not_affected",
+      "actual": "not_affected",
+      "passed": true
+    },
+    {
+      "case": "CVE-2021-41773-host-2.4.51",
+      "expected": "not_affected",
+      "actual": "not_affected",
+      "passed": true
+    },
+    {
+      "case": "CVE-2021-41773-host-2.4.100",
+      "expected": "not_affected",
+      "actual": "not_affected",
+      "passed": true
+    },
+    {
+      "case": "CVE-2021-41773-banner",
+      "expected": "potential",
+      "actual": "potential",
+      "passed": true
+    },
+    {
+      "case": "CVE-2021-41773-missing",
+      "expected": "unknown",
+      "actual": "unknown",
+      "passed": true
+    },
+    {
+      "case": "CVE-2021-41773-vendor-suffix",
+      "expected": "unknown",
+      "actual": "unknown",
+      "passed": true
+    },
+    {
+      "case": "CVE-2021-41773-prerelease",
+      "expected": "unknown",
+      "actual": "unknown",
+      "passed": true
+    },
+    {
+      "case": "CVE-2021-41773-vendor-fixed",
+      "expected": "not_affected",
+      "actual": "not_affected",
+      "passed": true
+    },
+    {
+      "case": "CVE-2021-41773-unproven-fix",
+      "expected": "unknown",
+      "actual": "unknown",
+      "passed": true
+    },
+    {
+      "case": "CVE-2021-41773-other-product",
+      "expected": "not_applicable",
+      "actual": "not_applicable",
+      "passed": true
+    },
+    {
+      "case": "CVE-2021-41773-spoofed-patch-banner",
+      "expected": "unknown",
+      "actual": "unknown",
+      "passed": true
+    },
+    {
+      "case": "CVE-2021-42013-host-2.4.9",
+      "expected": "not_affected",
+      "actual": "not_affected",
+      "passed": true
+    },
+    {
+      "case": "CVE-2021-42013-host-2.4.48",
+      "expected": "not_affected",
+      "actual": "not_affected",
+      "passed": true
+    },
+    {
+      "case": "CVE-2021-42013-host-2.4.49",
+      "expected": "affected_version",
+      "actual": "affected_version",
+      "passed": true
+    },
+    {
+      "case": "CVE-2021-42013-host-2.4.50",
+      "expected": "affected_version",
+      "actual": "affected_version",
+      "passed": true
+    },
+    {
+      "case": "CVE-2021-42013-host-2.4.51",
+      "expected": "not_affected",
+      "actual": "not_affected",
+      "passed": true
+    },
+    {
+      "case": "CVE-2021-42013-host-2.4.100",
+      "expected": "not_affected",
+      "actual": "not_affected",
+      "passed": true
+    },
+    {
+      "case": "CVE-2021-42013-banner",
+      "expected": "potential",
+      "actual": "potential",
+      "passed": true
+    },
+    {
+      "case": "CVE-2021-42013-missing",
+      "expected": "unknown",
+      "actual": "unknown",
+      "passed": true
+    },
+    {
+      "case": "CVE-2021-42013-vendor-suffix",
+      "expected": "unknown",
+      "actual": "unknown",
+      "passed": true
+    },
+    {
+      "case": "CVE-2021-42013-prerelease",
+      "expected": "unknown",
+      "actual": "unknown",
+      "passed": true
+    },
+    {
+      "case": "CVE-2021-42013-vendor-fixed",
+      "expected": "not_affected",
+      "actual": "not_affected",
+      "passed": true
+    },
+    {
+      "case": "CVE-2021-42013-unproven-fix",
+      "expected": "unknown",
+      "actual": "unknown",
+      "passed": true
+    },
+    {
+      "case": "CVE-2021-42013-other-product",
+      "expected": "not_applicable",
+      "actual": "not_applicable",
+      "passed": true
+    },
+    {
+      "case": "CVE-2021-42013-spoofed-patch-banner",
+      "expected": "unknown",
+      "actual": "unknown",
+      "passed": true
+    }
+  ]
+}
